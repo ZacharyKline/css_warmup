@@ -7,7 +7,160 @@
   <title>CSS Exercise 7</title>
 
   <style>
-  	
+body {
+  display: flex;
+  flex-direction: row;
+  background: tan;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+body::before {
+   content: "";
+   width: 400px;
+   height: 500px;
+}
+
+
+.interior {
+        width: 150px;
+        height: 150px;
+        border: white 6px solid;
+        box-sizing: border-box;
+      }
+      .div1 {
+        background-color: #e40804;
+      }
+      .div1::before {
+        content: "";
+        width: 150px;
+        height: 150px;
+        border: white 6px solid;
+        box-sizing: border-box;
+        background-color: #ff9897;
+        position: absolute;
+        left: 10px;
+        top: 8px;
+      }
+      .div1::after {
+        content: "";
+        width: 150px;
+        height: 150px;
+        border: white 6px solid;
+        box-sizing: border-box;
+        background-color: rgb(245, 94, 94);
+        position: absolute;
+        left: 206px;
+        top: 8px;
+      }
+
+	.div2 {
+
+		background-color: rgb(240, 156, 0);
+
+	}
+      .div2::before {
+        content: "";
+        width: 150px;
+        height: 150px;
+        border: white 6px solid;
+        box-sizing: border-box;
+        background-color: rgb(236, 184, 86);
+        position: absolute;
+        left: 10px;
+        top: 157px;
+      }
+      .div2::after {
+        content: "";
+        width: 150px;
+        height: 150px;
+        border: white 6px solid;
+        box-sizing: border-box;
+        background-color: rgb(243, 178, 56);
+        position: absolute;
+        left: 206px;
+        top: 157px;
+      }
+	.div3 {
+
+		background-color: yellow;
+
+	}
+	.div3::before {
+        content: "";
+        width: 150px;
+        height: 150px;
+        border: white 6px solid;
+        box-sizing: border-box;
+        background-color: rgb(221, 236, 86);
+        position: absolute;
+        left: 10px;
+        top: 307px;
+      }
+      .div3::after {
+        content: "";
+        width: 150px;
+        height: 150px;
+        border: white 6px solid;
+        box-sizing: border-box;
+        background-color: rgb(217, 238, 30);
+        position: absolute;
+        left: 206px;
+        top: 307px;
+      }
+	.div4 {
+
+		background-color: blue;
+	}
+		.div4::before {
+        content: "";
+        width: 150px;
+        height: 150px;
+        border: white 6px solid;
+        box-sizing: border-box;
+        background-color: rgb(124, 154, 236);
+        position: absolute;
+        left: 10px;
+        top: 457px;
+      }
+      .div4::after {
+        content: "";
+        width: 150px;
+        height: 150px;
+        border: white 6px solid;
+        box-sizing: border-box;
+        background-color: rgb(73, 130, 236);
+        position: absolute;
+        left: 206px;
+        top: 457px;
+      }
+	.div5 {
+		background-color: pink;
+	}
+	.div5::before {
+        content: "";
+        width: 150px;
+        height: 150px;
+        border: white 6px solid;
+        box-sizing: border-box;
+        background-color: rgb(252, 243, 244);
+        position: absolute;
+        left: 10px;
+        top: 607px;
+      }
+      .div5::after {
+        content: "";
+        width: 150px;
+        height: 150px;
+        border: white 6px solid;
+        box-sizing: border-box;
+        background-color: rgb(250, 215, 221);
+        position: absolute;
+        left: 206px;
+        top: 607px;
+      }
   </style>
 </head>
 <body>
